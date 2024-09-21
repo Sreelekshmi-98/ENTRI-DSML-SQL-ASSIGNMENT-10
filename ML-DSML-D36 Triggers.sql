@@ -48,7 +48,7 @@ FOR EACH ROW
 BEGIN
   INSERT INTO teacher_log (teacher_id, action)
   VALUES (NEW.Id, 'INSERT');
-END//
+END$$
 
 DELIMITER ;
 
